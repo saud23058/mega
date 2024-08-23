@@ -45,7 +45,7 @@ const userSchema = mongoose.Schema(
       type: String,
       required: [true, "Password is required"], // String shows the custom error message
     },
-    refreshToken: {
+    refereshToken: {
       type: String,
     },
   },
